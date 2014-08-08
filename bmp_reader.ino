@@ -37,7 +37,7 @@ void setup() {
       colour=(bVal<<11)|(gVal<<5)|rVal;
       myScreen.point(k+(88-(x/2)),j+(110-(y/2)),colour);
       colour=0x0;
-//      delay(5);
+//      delay(5);//
     }
   }
   for(int i=0;i<3;i++){
